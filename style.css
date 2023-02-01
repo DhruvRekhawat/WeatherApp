@@ -1,0 +1,51 @@
+*{
+  box-sizing: border-box;
+  margin: 1rem;
+  padding: 0;
+}
+html{
+  margin: 0;
+  font-family: monospace;
+}
+body{
+  color: white;
+ 
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("e-AnGx1n-gtw8-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+div{
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 1rem;
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 15rem;
+  width: 20rem;
+  border-radius: 1rem;
+  background-color: gray;
+  font-size: 1.3rem;
+
+}
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
