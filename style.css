@@ -49,11 +49,4 @@ section{
   align-items: center;
 
 }
-@media screen and (max-width: 400px) {
-  body{
-    background-size: cover;
-  }
-  div{
-    max-width: 20rem;
-  }
-}
+
