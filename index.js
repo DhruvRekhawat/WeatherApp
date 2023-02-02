@@ -122,5 +122,8 @@ const greetingUpdate=()=>{
     greeting.innerText="Good Night!"
     document.body.style.backgroundImage=`url("aqil-zufar-W1_oJUCoycM-unsplash.jpg")`;
    }
+    else{
+        document.body.style.backgroundImage=`url("")`;
+    }
 }
 greetingUpdate();
